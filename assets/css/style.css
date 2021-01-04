@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(65, 65, 65);
+    color: whitesmoke;
+}
+#title {
+    margin: 1rem 0;
+}
+canvas {
+    display: none;
+}
+
+video {
+    width: 100vw;
+    height: 44vh;
+    border-radius: 40px;
+}
+#i-see {
+    display: none;
+}
+
+

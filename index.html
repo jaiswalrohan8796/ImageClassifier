@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Image-Classifier</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"></script>
+    
+</head>
+<body>
+    <div>
+        <h1  id='title' class="text-center">Image Classifier</h1>
+        <video id="video" autoplay muted></video>
+        <h3 id="wait" class="text-center">Wait till the models load...</h3>
+        <canvas id="canvas"  ></canvas>
+        <h3 class="text-center" id='i-see'>I See 👀</h3>
+        <h4 class='text-center' id="status"></h4>
+    </div>
+    
+    <script src="./jquery.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
